@@ -59,9 +59,9 @@ def textt(text, x, y):
 
 
 def about():
+    screen.fill(background_colour)
     while True:
         pygame.display.set_caption('About')
-        screen.fill(background_colour)
         return_button = button.Button(30, 250, return_img, 0.2)
         textt('About GUI', 390, 200)
         textt('~ applies b/w filter and crops to', 310, 250)
